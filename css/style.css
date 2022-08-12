@@ -1,0 +1,96 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+background-color: lightgrey;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+.flag {
+     margin-top: 50px;
+     order: -1;
+     margin-right: 23.5%;
+}
+.container {
+     display: flex;
+     justify-content: center;
+     
+     flex-wrap: wrap;
+}
+input {
+     margin-top: 40px;
+ 
+     width: 60%;
+     height: 80px;
+     font-size: 40px;
+     border-radius: 20px;
+     font-weight: 600;
+}
+.guess {
+     height: 80px;
+     border-radius: 20px;
+     background: lightseagreen;
+     font-size: 50px;
+     font-weight: 700;
+     width: 60%;
+}
+
+button:hover {
+     background: orange;
+}
+
+h2{
+     margin-left:37.2%;
+     font-size: 100px;
+     margin-top: 40px;
+}
+.hidden {
+     display: none;
+}
+.generate {
+     height: 200px;
+     border-radius: 20px;
+     background: lightseagreen;
+     font-size: 35px;
+     font-weight: 700;
+     margin-top: 50px;  
+     width: 15%; 
+}
+.genContainer {
+     display: flex;
+     justify-content: flex-end;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
