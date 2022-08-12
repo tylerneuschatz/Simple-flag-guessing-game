@@ -74,7 +74,7 @@ function generateFlag() {
         country = 'estonia'
     }
     else if(randomNum < 46) {
-        country = 'egpyt'
+        country = 'egypt'
     }
     else if(randomNum < 48) {
         country = 'spain'
