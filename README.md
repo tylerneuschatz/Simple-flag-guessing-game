@@ -1,6 +1,8 @@
 Flag Guessing Game
 A simple flag guessing game where you generate a flag and guess what country's flag it is!
 
+<img width="1422" alt="Screen Shot 2022-08-31 at 2 38 26 PM" src="https://user-images.githubusercontent.com/109202126/187789849-5f6427c6-f4bf-4fd3-8567-bd05c6baa124.png">
+
 Link to project: https://tyler-neuschatz-flag-guesser-game.netlify.app/
 
 How It's Made:
